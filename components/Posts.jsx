@@ -12,7 +12,7 @@ const Posts = () => {
         <Post
           key={post.id}
           name={post.data().name}
-          message={post.data().email}
+          message={post.data().message}
           timestamp={post.data().timestamp}
           image={post.data().image}
           postImage={post.data().postImage}
