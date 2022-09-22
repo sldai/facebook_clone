@@ -1,8 +1,10 @@
 import StoryCard from './StoryCard';
 
 const stories = [
-  { name: 'Mark Zuckerberg', src: 'https://links.paperreact.com/xql', profile: 'https://link.papareact.com/snf' },
-  { name: 'Bill Gates', src: 'https://links.paperreact.com/4u4', profile: 'https://link.papareact.com/zvy' },
+  { name: 'Elon Musk', src: '/elon-large.jpg', profile: '/elon-small.jpg' },
+  { name: 'Jeff Bezoz', src: '/bezoz-large.webp', profile: '/bezoz-small.jpg' },
+  { name: 'Mark Zuckerberg', src: '/Zuck-large.jpg', profile: '/Zuck-small.jpg' },
+  { name: 'Bill Gates', src: '/Gates-large.jpg', profile: '/Gates-small.jpg' },
 ];
 
 const Stories = () => {

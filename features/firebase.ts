@@ -5,9 +5,6 @@ import { getFirestore } from 'firebase/firestore';
 import { getApp, getApps } from 'firebase/app';
 import { getStorage } from "firebase/storage";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: 'AIzaSyCGQoDpGFa8xO2BcEvR4kYdypvjy4ieCq8',

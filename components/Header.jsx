@@ -21,7 +21,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Center */}
       <div className='flex justify-center flex-grow'>
         <div className='flex space-x-6 md:space-x-2'>
           <HeaderIcon active Icon={HomeIcon} />
@@ -32,10 +31,9 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Right */}
       <div className='flex items-center sm:space-x-2 justify-end'>
 
-        <p className='whitespace-nowrap font-semibold pr-3'>Shilong Dai</p>
+        <p className='whitespace-nowrap font-semibold pr-3'>Your Name</p>
         <Squares2X2Icon className='icon'/>
         <ChatBubbleOvalLeftEllipsisIcon className='icon'/>
         <BellIcon className='icon'/>

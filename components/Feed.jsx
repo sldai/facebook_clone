@@ -4,8 +4,8 @@ import Posts from './Posts';
 
 const Feed = () => {
   return (
-    <div className='flex-grow h-screen pb-44 pt-6 mr-4 xl:mr-40 overflow-y-auto scrollbar-hide'>
-      <div className='max-auto max-w-md md:max-w-lg lg:max-w-3xl'>
+    <div className='flex-grow justify-center h-screen pb-44 pt-6 mr-4 lg:mr-4 overflow-y-auto scrollbar-hide flex items-start'>
+      <div className='max-w-md md:max-w-lg lg:max-w-2xl'>
         <Stories />
         <InputBox />
         <Posts />

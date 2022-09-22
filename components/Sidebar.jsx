@@ -5,6 +5,7 @@ import SiderbarRow from './SidebarRow';
 function Sidebar() {
   return (
     <div className='p-2 mt-5 max-w-[600px] xl:min-w-[300px]'>
+      <SiderbarRow src='/favicon.ico' title={'Your Name'} />
       <SiderbarRow Icon={UsersIcon} title='Friends' />
       <SiderbarRow Icon={UserGroupIcon} title='Groups' />
       <SiderbarRow Icon={ComputerDesktopIcon} title='Watch' />
